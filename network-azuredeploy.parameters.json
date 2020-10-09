@@ -3,28 +3,28 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vnet1RgName": {
-      "value": ""
+      "value": "rg-vnet-swissno-001"
     },
     "vnet1RgLocation": {
-      "value": ""
+      "value": "switzerlandnorth"
     },
     "vnet2RgName": {
-      "value": ""
+      "value": "rg-vnet-westeu-001"
     },
     "vnet2RgLocation": {
-      "value": ""
+      "value": "westeurope"
     },
     "tagCreator": {
-      "value": ""
+      "value": "lrottach@darkcontoso.io"
     },
     "tagCreationDate": {
-      "value": ""
+      "value": "09/10/2020"
     },
     "tagDescription": {
-      "value": ""
+      "value": "Virtual Network infrastructure for development"
     },
     "tagEnvironment": {
-      "value": ""
+      "value": "Development"
     }
   }
 }

@@ -46,6 +46,7 @@
     },
     "tagEnvironment": {
       "type": "string",
+      "allowedValues": ["Production", "Development", "Testing"],
       "metadata": {
         "description": "Environment purpose."
       }
