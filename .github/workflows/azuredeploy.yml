@@ -21,3 +21,8 @@ jobs:
       - name: Deploy ARM Template
         uses: azure/CLI@v1
         with:
+          inlineScript: |
+            az deployment create \
+            --location SwitzerlandNorth
+            --template-file network-azuredeploy.json
+            --parameters network-azuredeploy.parameters.json
