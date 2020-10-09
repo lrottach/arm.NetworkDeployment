@@ -54,6 +54,33 @@
   },
   "functions": [],
   "variables": {},
-  "resources": [],
+  "resources": [
+    {
+      "name": "[parameters('vnet1RgName')]",
+      "type": "Microsoft.Resources/resourceGroups",
+      "apiVersion": "2019-10-01",
+      "location": "[parameters('vnet1RgLocation')]",
+      "dependsOn": [],
+      "tags": {
+        "Creator": "[parameters('tagCreator')]",
+        "CreationDate": "[parameters('tagCreationDate')]",
+        "Description": "[parameters('tagDescription')]",
+        "Environment": "[parameters('tagEnvironment')]"
+      }
+    },
+    {
+      "name": "[parameters('vnet2RgName')]",
+      "type": "Microsoft.Resources/resourceGroups",
+      "apiVersion": "2019-10-01",
+      "location": "[parameters('vnet2RgLocation')]",
+      "dependsOn": [],
+      "tags": {
+        "Creator": "[parameters('tagCreator')]",
+        "CreationDate": "[parameters('tagCreationDate')]",
+        "Description": "[parameters('tagDescription')]",
+        "Environment": "[parameters('tagEnvironment')]"
+      }
+    }
+  ],
   "outputs": {}
 }
