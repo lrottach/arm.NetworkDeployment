@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnet1RgName": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource Group name for vnet 1."
+      }
+    },
+    "vnet1RgLocation": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource Group location for vnet 1."
+      }
+    },
+    "vnet2RgName": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource Group name for vnet 2."
+      }
+    },
+    "vnet2RgLocation": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource Group location for vnet 2."
+      }
+    },
+    "tagCreator": {
+      "type": "string",
+      "metadata": {
+        "description": "UPN of the resource creator."
+      }
+    },
+    "tagCreationDate": {
+      "type": "string",
+      "metadata": {
+        "description": "Date of the resource creation."
+      }
+    },
+    "tagDescription": {
+      "type": "string",
+      "metadata": {
+        "description": "Description of the deployed resource."
+      }
+    },
+    "tagEnvironment": {
+      "type": "string",
+      "metadata": {
+        "description": "Environment purpose."
+      }
+    }
+  },
+  "functions": [],
+  "variables": {},
+  "resources": [],
+  "outputs": {}
+}
